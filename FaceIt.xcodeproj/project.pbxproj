@@ -14,6 +14,7 @@
 		EC4612EE1DA743BB00716A11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4612EC1DA743BB00716A11 /* LaunchScreen.storyboard */; };
 		EC4612F91DA743BB00716A11 /* FaceItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4612F81DA743BB00716A11 /* FaceItTests.swift */; };
 		EC4613051DA744C300716A11 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4613041DA744C300716A11 /* FaceView.swift */; };
+		ECB394F21DAF80F80054704D /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB394F11DAF80F80054704D /* FacialExpression.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		EC4612F81DA743BB00716A11 /* FaceItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceItTests.swift; sourceTree = "<group>"; };
 		EC4612FA1DA743BB00716A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC4613041DA744C300716A11 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		ECB394F11DAF80F80054704D /* FacialExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				EC4612E51DA743BB00716A11 /* FaceViewController.swift */,
 				EC4612E71DA743BB00716A11 /* Main.storyboard */,
+				ECB394F11DAF80F80054704D /* FacialExpression.swift */,
 				EC4613041DA744C300716A11 /* FaceView.swift */,
 				EC4613031DA7440000716A11 /* SupportingFiles */,
 			);
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC4612E61DA743BB00716A11 /* FaceViewController.swift in Sources */,
+				ECB394F21DAF80F80054704D /* FacialExpression.swift in Sources */,
 				EC4612E41DA743BB00716A11 /* AppDelegate.swift in Sources */,
 				EC4613051DA744C300716A11 /* FaceView.swift in Sources */,
 			);
@@ -426,6 +430,7 @@
 				EC4612FF1DA743BB00716A11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC4613001DA743BB00716A11 /* Build configuration list for PBXNativeTarget "FaceItTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +439,7 @@
 				EC4613021DA743BB00716A11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
