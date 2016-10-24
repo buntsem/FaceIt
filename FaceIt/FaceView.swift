@@ -32,6 +32,13 @@ class FaceView: UIView {
             break
         }
     }
+    func moveEye(recognizer: UITapGestureRecognizer) {
+        if recognizer.numberOfTapsRequired == 2 {
+            eyeOpen = true
+        } else if recognizer.numberOfTapsRequired == 3 {
+            eyeOpen = false
+        }
+    }
 
     var skullRadius: CGFloat {
         return min(bounds.size.width, bounds.size.height) / 2 * scale
