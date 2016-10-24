@@ -21,6 +21,8 @@ class FaceViewController: UIViewController {
             sadderSwipeGestureRecognizer.direction = .down
             faceView.addGestureRecognizer(sadderSwipeGestureRecognizer)
             updateUI()
+            faceView.addGestureRecognizer(UITapGestureRecognizer(target: faceView, action: #selector(FaceView.moveEye(recognizer:))
+            ))
         }
     }
     var expression: FacialExpression = FacialExpression(eyes: .Closed, eyeBrows: .Relaxed, mouth: .Smirk) {
